@@ -55,7 +55,7 @@ The signal PDF requires heavy computation which consists:
 - Angles between 2374 pulsars * 1134450 neutrinos = 269,500,850 values.
 - $\omega_{acc}$ for 2374 pulsars. Each pulsar is attributed a weight $\omega_{acc}$ which is proportional to the declination and detector effective area. It is given by:
     
-    $\omega_{acc,j} = T \times \int A_{eff}(E_{\nu}, \delta_j)E_{\nu}^{\Gamma} dE_{\nu}$
+    $'\omega_{acc,j} = T \times \int A_{eff}(E_{\nu}, \delta_j)E_{\nu}^{\Gamma} dE_{\nu}'$
 
     where $T$ is the livetime of the detector, $A_{eff}$ is the effective area of the detector, $\Gamma$ is the spectral index of the neutrino flux, and $\delta_j$ is the declination of the $j^{th}$ pulsar. The effective area of the detector is a function of the neutrino energy and the declination of the source. The effective area is calculated for 1134450 neutrinos and 2374 pulsars.
 

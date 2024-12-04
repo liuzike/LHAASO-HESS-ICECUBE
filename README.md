@@ -1,4 +1,4 @@
-## A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources
+x## A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources
 
 This repository contains the code used to perform the analysis described in the paper "A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources" . The code is written in Python 3.8 and uses the following packages: numpy, scipy, matplotlib, pandas, numba, multiprocessing.
 
@@ -64,7 +64,7 @@ The signal PDF requires heavy computation which consists:
 
 - The no.of signal events for each pulsar indexed by $j$ is given by: 
 
-    $\hat{n}_{s_j} =  T \times \intop A_{eff}(E_{\nu}, \delta_j)\dfrac{dF}{dE_{\nu}}dE_{\nu}$
+    $'\hat{n}_{s_j} =  T \times \intop A_{eff}(E_{\nu}, \delta_j)\dfrac{dF}{dE_{\nu}}dE_{\nu}'$
 
     $T$, $A_{eff}$, and $\delta_j$ are the same as above. $\dfrac{dF}{dE_{\nu}}$ is the expected neutrino spectrum from the source and can be modelled using a power-law as follows:
 

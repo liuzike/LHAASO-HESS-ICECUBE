@@ -1,4 +1,4 @@
-x## A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources
+####### A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources #########
 
 This repository contains the code used to perform the analysis described in the paper "A search for the neutrino signals from the LHAASO and H.E.S.S. gamma-ray sources" . The code is written in Python 3.8 and uses the following packages: numpy, scipy, matplotlib, pandas, numba, multiprocessing.
 
